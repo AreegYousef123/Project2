@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("My Second API Project",style: TextStyle(fontSize: 20 ,fontWeight: FontWeight.bold),),
+        title: Text("Random Users",style: TextStyle(fontSize: 20 ,fontWeight: FontWeight.bold),),
         backgroundColor: Colors.brown,
       ),
       body: Consumer<UserProviser>(
