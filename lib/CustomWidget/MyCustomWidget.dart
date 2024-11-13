@@ -4,7 +4,7 @@ class Custom extends StatelessWidget {
   final String FullName;
   final String Email ;
   final String Picture;
-
+//
   @override
   Widget build(BuildContext context) {
     return Container(
